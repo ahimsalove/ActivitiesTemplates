@@ -1,0 +1,20 @@
+{
+  "name": "com.add-life.activities-template",
+  "version": "1.0.0",
+  "displayName": "Alto Avtivity Template",
+  "description": "Template to create new activites",
+  "unity": "2021.3",
+  "keywords": [
+    "library",
+    "template",
+    "activities"
+  ],
+  "author": {
+    "name": "Add Life",
+    "email": "developer@add-life.au",
+    "url": "https://add-life.au"
+  },
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "12.1.7"
+  }
+}
