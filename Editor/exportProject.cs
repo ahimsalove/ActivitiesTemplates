@@ -9,6 +9,7 @@ public class AssetDatabaseExamples : MonoBehaviour
     {
         var exportedPackageAssetList = new List<string>();
         exportedPackageAssetList.Add("Packages/Activities Template");
+        exportedPackageAssetList.Add("Library/BuildPlayerData");
         exportedPackageAssetList.Add("Assets/Add-Life Essentials");
         exportedPackageAssetList.Add("Assets/Scenes");
         exportedPackageAssetList.Add("Assets/StreamingAssets");
