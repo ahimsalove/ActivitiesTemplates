@@ -8,8 +8,8 @@ public class AssetDatabaseExamples : MonoBehaviour
     static void Export()
     {
         var exportedPackageAssetList = new List<string>();
-        exportedPackageAssetList.Add("Packages/Activities Template");
-        exportedPackageAssetList.Add("Library/BuildPlayerData");
+        exportedPackageAssetList.Add("Packages");
+        exportedPackageAssetList.Add("Library");
         exportedPackageAssetList.Add("Assets/Add-Life Essentials");
         exportedPackageAssetList.Add("Assets/Scenes");
         exportedPackageAssetList.Add("Assets/StreamingAssets");
@@ -26,6 +26,6 @@ public class AssetDatabaseExamples : MonoBehaviour
         exportedPackageAssetList.Add("Assets/XR");
         exportedPackageAssetList.Add("Assets/Prefabs");
 
-        AssetDatabase.ExportPackage(exportedPackageAssetList.ToArray(), "/Add-Life Activities.unitypackage", ExportPackageOptions.Recurse | ExportPackageOptions.IncludeDependencies | ExportPackageOptions.Interactive | ExportPackageOptions.IncludeLibraryAssets);
+        AssetDatabase.ExportPackage(exportedPackageAssetList.ToArray(), "/Add-Life Activities - Full.unitypackage", ExportPackageOptions.Recurse | ExportPackageOptions.IncludeDependencies | ExportPackageOptions.Interactive | ExportPackageOptions.IncludeLibraryAssets);
     }
 }
