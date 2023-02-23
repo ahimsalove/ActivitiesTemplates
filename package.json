@@ -1,6 +1,6 @@
 {
   "name": "com.add-life.activities-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "Alto Activity Template",
   "description": "Template to create new activites",
   "unity": "2021.3",
