@@ -29,6 +29,10 @@ public class SetOrigin : MonoBehaviour {
 	}
 	private void Start()
 	{
+		if (PlayerPrefs.GetFloat("HeightOffset")!=0) {
+			if (position) positionOffset.y += PlayerPrefs.GetFloat("HeightOffset");
+			else transform.position = new Vector3(transform.position.x, transform.position.y + PlayerPrefs.GetFloat("HeightOffset"), transform.position.z);
+		}
 		if (usePath) {
 			target = GameObject.Find(path) != null ? GameObject.Find(path).transform : Camera.main.transform.parent;
 		}
